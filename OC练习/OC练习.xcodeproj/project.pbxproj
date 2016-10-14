@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951E55771DB0CE1C00BD0A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E55761DB0CE1C00BD0A58 /* main.m */; };
 		95E5AF621DB0850E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF611DB0850E0098CD61 /* main.m */; };
 		95E5AF6F1DB0851E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF6E1DB0851E0098CD61 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		951E55721DB0CE1C00BD0A58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		95E5AF5C1DB0850E0098CD61 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		951E55741DB0CE1C00BD0A58 /* NSArray练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSArray练习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951E55761DB0CE1C00BD0A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95E5AF5E1DB0850E0098CD61 /* OC练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E5AF611DB0850E0098CD61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95E5AF6C1DB0851E0098CD61 /* NSString练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSString练习"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		951E55711DB0CE1C00BD0A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95E5AF5B1DB0850E0098CD61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		951E55751DB0CE1C00BD0A58 /* NSArray练习 */ = {
+			isa = PBXGroup;
+			children = (
+				951E55761DB0CE1C00BD0A58 /* main.m */,
+			);
+			path = "NSArray练习";
+			sourceTree = "<group>";
+		};
 		95E5AF551DB0850E0098CD61 = {
 			isa = PBXGroup;
 			children = (
 				95E5AF601DB0850E0098CD61 /* OC练习 */,
 				95E5AF6D1DB0851E0098CD61 /* NSString练习 */,
+				951E55751DB0CE1C00BD0A58 /* NSArray练习 */,
 				95E5AF5F1DB0850E0098CD61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				95E5AF5E1DB0850E0098CD61 /* OC练习 */,
 				95E5AF6C1DB0851E0098CD61 /* NSString练习 */,
+				951E55741DB0CE1C00BD0A58 /* NSArray练习 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		951E55731DB0CE1C00BD0A58 /* NSArray练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951E557A1DB0CE1C00BD0A58 /* Build configuration list for PBXNativeTarget "NSArray练习" */;
+			buildPhases = (
+				951E55701DB0CE1C00BD0A58 /* Sources */,
+				951E55711DB0CE1C00BD0A58 /* Frameworks */,
+				951E55721DB0CE1C00BD0A58 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSArray练习";
+			productName = "NSArray练习";
+			productReference = 951E55741DB0CE1C00BD0A58 /* NSArray练习 */;
+			productType = "com.apple.product-type.tool";
+		};
 		95E5AF5D1DB0850E0098CD61 /* OC练习 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95E5AF651DB0850E0098CD61 /* Build configuration list for PBXNativeTarget "OC练习" */;
@@ -137,6 +183,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = CosyVan;
 				TargetAttributes = {
+					951E55731DB0CE1C00BD0A58 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					95E5AF5D1DB0850E0098CD61 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -159,11 +208,20 @@
 			targets = (
 				95E5AF5D1DB0850E0098CD61 /* OC练习 */,
 				95E5AF6B1DB0851E0098CD61 /* NSString练习 */,
+				951E55731DB0CE1C00BD0A58 /* NSArray练习 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		951E55701DB0CE1C00BD0A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E55771DB0CE1C00BD0A58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95E5AF5A1DB0850E0098CD61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +241,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		951E55781DB0CE1C00BD0A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951E55791DB0CE1C00BD0A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		95E5AF631DB0850E0098CD61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -295,6 +367,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		951E557A1DB0CE1C00BD0A58 /* Build configuration list for PBXNativeTarget "NSArray练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E55781DB0CE1C00BD0A58 /* Debug */,
+				951E55791DB0CE1C00BD0A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		95E5AF591DB0850E0098CD61 /* Build configuration list for PBXProject "OC练习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -311,6 +391,7 @@
 				95E5AF671DB0850E0098CD61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95E5AF701DB0851E0098CD61 /* Build configuration list for PBXNativeTarget "NSString练习" */ = {
 			isa = XCConfigurationList;
@@ -319,6 +400,7 @@
 				95E5AF721DB0851E0098CD61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

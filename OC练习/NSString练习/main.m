@@ -215,12 +215,12 @@ int main(int argc, const char * argv[]) {
         
         
         //将字符串写入到文件中
-//        NSString *writeStr = @"asdfghjklqewtet";
-//        // atomically 如果传入YES, 字符串写入文件的过程中如果没有写完, 那么不会生成文件
-//        //            如果传入NO, 字符串写入文件的过程中如果没有写完, 会生成文件
-//        NSString *path2 = @"/Users/cosyvan/Desktop/oc.txt";
-//        BOOL wtf = [writeStr writeToFile:path2 atomically:YES encoding:NSUTF8StringEncoding error:nil];
-//        NSLog(@"wtf = %i", wtf);
+        NSString *writeStr = @"asdfghjklqewtet";
+        // atomically 如果传入YES, 字符串写入文件的过程中如果没有写完, 那么不会生成文件
+        //            如果传入NO, 字符串写入文件的过程中如果没有写完, 会生成文件
+        NSString *path2 = @"/Users/cosyvan/Desktop/oc.txt";
+        BOOL wtf = [writeStr writeToFile:path2 atomically:YES encoding:NSUTF8StringEncoding error:nil];
+        NSLog(@"wtf = %i", wtf);
         
 #pragma mark - 分割字符串
         
