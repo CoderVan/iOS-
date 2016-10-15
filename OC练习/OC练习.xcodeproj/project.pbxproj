@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		951E55771DB0CE1C00BD0A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E55761DB0CE1C00BD0A58 /* main.m */; };
+		952B6A4F1DB1CA4F00BB495C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 952B6A4E1DB1CA4F00BB495C /* main.m */; };
 		95E5AF621DB0850E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF611DB0850E0098CD61 /* main.m */; };
 		95E5AF6F1DB0851E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF6E1DB0851E0098CD61 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		951E55721DB0CE1C00BD0A58 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		952B6A4A1DB1CA4F00BB495C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -45,6 +55,8 @@
 /* Begin PBXFileReference section */
 		951E55741DB0CE1C00BD0A58 /* NSArray练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSArray练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		951E55761DB0CE1C00BD0A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		952B6A4C1DB1CA4F00BB495C /* NSDictionary练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSDictionary练习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952B6A4E1DB1CA4F00BB495C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95E5AF5E1DB0850E0098CD61 /* OC练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E5AF611DB0850E0098CD61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95E5AF6C1DB0851E0098CD61 /* NSString练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSString练习"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +65,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		951E55711DB0CE1C00BD0A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952B6A491DB1CA4F00BB495C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,12 +103,21 @@
 			path = "NSArray练习";
 			sourceTree = "<group>";
 		};
+		952B6A4D1DB1CA4F00BB495C /* NSDictionary练习 */ = {
+			isa = PBXGroup;
+			children = (
+				952B6A4E1DB1CA4F00BB495C /* main.m */,
+			);
+			path = "NSDictionary练习";
+			sourceTree = "<group>";
+		};
 		95E5AF551DB0850E0098CD61 = {
 			isa = PBXGroup;
 			children = (
 				95E5AF601DB0850E0098CD61 /* OC练习 */,
 				95E5AF6D1DB0851E0098CD61 /* NSString练习 */,
 				951E55751DB0CE1C00BD0A58 /* NSArray练习 */,
+				952B6A4D1DB1CA4F00BB495C /* NSDictionary练习 */,
 				95E5AF5F1DB0850E0098CD61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +128,7 @@
 				95E5AF5E1DB0850E0098CD61 /* OC练习 */,
 				95E5AF6C1DB0851E0098CD61 /* NSString练习 */,
 				951E55741DB0CE1C00BD0A58 /* NSArray练习 */,
+				952B6A4C1DB1CA4F00BB495C /* NSDictionary练习 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +167,23 @@
 			name = "NSArray练习";
 			productName = "NSArray练习";
 			productReference = 951E55741DB0CE1C00BD0A58 /* NSArray练习 */;
+			productType = "com.apple.product-type.tool";
+		};
+		952B6A4B1DB1CA4F00BB495C /* NSDictionary练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952B6A521DB1CA4F00BB495C /* Build configuration list for PBXNativeTarget "NSDictionary练习" */;
+			buildPhases = (
+				952B6A481DB1CA4F00BB495C /* Sources */,
+				952B6A491DB1CA4F00BB495C /* Frameworks */,
+				952B6A4A1DB1CA4F00BB495C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSDictionary练习";
+			productName = "NSDictionary练习";
+			productReference = 952B6A4C1DB1CA4F00BB495C /* NSDictionary练习 */;
 			productType = "com.apple.product-type.tool";
 		};
 		95E5AF5D1DB0850E0098CD61 /* OC练习 */ = {
@@ -186,6 +232,9 @@
 					951E55731DB0CE1C00BD0A58 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					952B6A4B1DB1CA4F00BB495C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					95E5AF5D1DB0850E0098CD61 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -209,6 +258,7 @@
 				95E5AF5D1DB0850E0098CD61 /* OC练习 */,
 				95E5AF6B1DB0851E0098CD61 /* NSString练习 */,
 				951E55731DB0CE1C00BD0A58 /* NSArray练习 */,
+				952B6A4B1DB1CA4F00BB495C /* NSDictionary练习 */,
 			);
 		};
 /* End PBXProject section */
@@ -219,6 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				951E55771DB0CE1C00BD0A58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952B6A481DB1CA4F00BB495C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952B6A4F1DB1CA4F00BB495C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +307,20 @@
 			name = Debug;
 		};
 		951E55791DB0CE1C00BD0A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		952B6A501DB1CA4F00BB495C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		952B6A511DB1CA4F00BB495C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +444,15 @@
 			buildConfigurations = (
 				951E55781DB0CE1C00BD0A58 /* Debug */,
 				951E55791DB0CE1C00BD0A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952B6A521DB1CA4F00BB495C /* Build configuration list for PBXNativeTarget "NSDictionary练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952B6A501DB1CA4F00BB495C /* Debug */,
+				952B6A511DB1CA4F00BB495C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
