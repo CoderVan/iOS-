@@ -5,3 +5,4 @@
 * NSArray数组的常用方法
 * NSDictionary字典的常用方法
 * Block的简单使用
+* 通知和代理简单使用
