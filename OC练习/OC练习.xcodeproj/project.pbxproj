@@ -18,6 +18,14 @@
 		953F3DFA1DB229FD00322D0C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953F3DF91DB229FD00322D0C /* SecondViewController.m */; };
 		95E5AF621DB0850E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF611DB0850E0098CD61 /* main.m */; };
 		95E5AF6F1DB0851E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF6E1DB0851E0098CD61 /* main.m */; };
+		95F574621DB313EE0040BB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F574611DB313EE0040BB67 /* main.m */; };
+		95F5746E1DB34CC50040BB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F5746D1DB34CC50040BB67 /* main.m */; };
+		95F574711DB34CC50040BB67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F574701DB34CC50040BB67 /* AppDelegate.m */; };
+		95F574741DB34CC50040BB67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F574731DB34CC50040BB67 /* ViewController.m */; };
+		95F574771DB34CC50040BB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F574751DB34CC50040BB67 /* Main.storyboard */; };
+		95F574791DB34CC50040BB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F574781DB34CC50040BB67 /* Assets.xcassets */; };
+		95F5747C1DB34CC50040BB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F5747A1DB34CC50040BB67 /* LaunchScreen.storyboard */; };
+		95F574831DB34CFB0040BB67 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F574821DB34CFB0040BB67 /* SecViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +65,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		95F5745D1DB313EE0040BB67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +81,6 @@
 		951E55761DB0CE1C00BD0A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		952B6A4C1DB1CA4F00BB495C /* NSDictionary练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSDictionary练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		952B6A4E1DB1CA4F00BB495C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		953F3DD81DB2266800322D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		953F3DE11DB226B200322D0C /* Block的简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block的简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		953F3DE41DB226B200322D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		953F3DE61DB226B200322D0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +97,20 @@
 		95E5AF611DB0850E0098CD61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95E5AF6C1DB0851E0098CD61 /* NSString练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSString练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E5AF6E1DB0851E0098CD61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F5745F1DB313EE0040BB67 /* Foundation框架其他常用对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Foundation框架其他常用对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F574611DB313EE0040BB67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F5746A1DB34CC50040BB67 /* 代理和通知.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代理和通知.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F5746D1DB34CC50040BB67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F5746F1DB34CC50040BB67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95F574701DB34CC50040BB67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95F574721DB34CC50040BB67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95F574731DB34CC50040BB67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95F574761DB34CC50040BB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F574781DB34CC50040BB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F5747B1DB34CC50040BB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F5747D1DB34CC50040BB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F574811DB34CFB0040BB67 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		95F574821DB34CFB0040BB67 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +149,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95F5745C1DB313EE0040BB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F574671DB34CC50040BB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -136,14 +180,6 @@
 				952B6A4E1DB1CA4F00BB495C /* main.m */,
 			);
 			path = "NSDictionary练习";
-			sourceTree = "<group>";
-		};
-		953F3DD71DB2266800322D0C /* Block的简单使用 */ = {
-			isa = PBXGroup;
-			children = (
-				953F3DD81DB2266800322D0C /* main.m */,
-			);
-			path = "Block的简单使用";
 			sourceTree = "<group>";
 		};
 		953F3DE21DB226B200322D0C /* Block的简单使用 */ = {
@@ -179,8 +215,9 @@
 				95E5AF6D1DB0851E0098CD61 /* NSString练习 */,
 				951E55751DB0CE1C00BD0A58 /* NSArray练习 */,
 				952B6A4D1DB1CA4F00BB495C /* NSDictionary练习 */,
-				953F3DD71DB2266800322D0C /* Block的简单使用 */,
 				953F3DE21DB226B200322D0C /* Block的简单使用 */,
+				95F574601DB313EE0040BB67 /* Foundation框架其他常用对象 */,
+				95F5746B1DB34CC50040BB67 /* 代理和通知 */,
 				95E5AF5F1DB0850E0098CD61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,6 +230,8 @@
 				951E55741DB0CE1C00BD0A58 /* NSArray练习 */,
 				952B6A4C1DB1CA4F00BB495C /* NSDictionary练习 */,
 				953F3DE11DB226B200322D0C /* Block的简单使用.app */,
+				95F5745F1DB313EE0040BB67 /* Foundation框架其他常用对象 */,
+				95F5746A1DB34CC50040BB67 /* 代理和通知.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +250,40 @@
 				95E5AF6E1DB0851E0098CD61 /* main.m */,
 			);
 			path = "NSString练习";
+			sourceTree = "<group>";
+		};
+		95F574601DB313EE0040BB67 /* Foundation框架其他常用对象 */ = {
+			isa = PBXGroup;
+			children = (
+				95F574611DB313EE0040BB67 /* main.m */,
+			);
+			path = "Foundation框架其他常用对象";
+			sourceTree = "<group>";
+		};
+		95F5746B1DB34CC50040BB67 /* 代理和通知 */ = {
+			isa = PBXGroup;
+			children = (
+				95F5746F1DB34CC50040BB67 /* AppDelegate.h */,
+				95F574701DB34CC50040BB67 /* AppDelegate.m */,
+				95F574721DB34CC50040BB67 /* ViewController.h */,
+				95F574731DB34CC50040BB67 /* ViewController.m */,
+				95F574811DB34CFB0040BB67 /* SecViewController.h */,
+				95F574821DB34CFB0040BB67 /* SecViewController.m */,
+				95F574751DB34CC50040BB67 /* Main.storyboard */,
+				95F574781DB34CC50040BB67 /* Assets.xcassets */,
+				95F5747A1DB34CC50040BB67 /* LaunchScreen.storyboard */,
+				95F5747D1DB34CC50040BB67 /* Info.plist */,
+				95F5746C1DB34CC50040BB67 /* Supporting Files */,
+			);
+			path = "代理和通知";
+			sourceTree = "<group>";
+		};
+		95F5746C1DB34CC50040BB67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F5746D1DB34CC50040BB67 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +374,40 @@
 			productReference = 95E5AF6C1DB0851E0098CD61 /* NSString练习 */;
 			productType = "com.apple.product-type.tool";
 		};
+		95F5745E1DB313EE0040BB67 /* Foundation框架其他常用对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F574631DB313EE0040BB67 /* Build configuration list for PBXNativeTarget "Foundation框架其他常用对象" */;
+			buildPhases = (
+				95F5745B1DB313EE0040BB67 /* Sources */,
+				95F5745C1DB313EE0040BB67 /* Frameworks */,
+				95F5745D1DB313EE0040BB67 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foundation框架其他常用对象";
+			productName = "Foundation框架其他常用对象";
+			productReference = 95F5745F1DB313EE0040BB67 /* Foundation框架其他常用对象 */;
+			productType = "com.apple.product-type.tool";
+		};
+		95F574691DB34CC50040BB67 /* 代理和通知 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F574801DB34CC50040BB67 /* Build configuration list for PBXNativeTarget "代理和通知" */;
+			buildPhases = (
+				95F574661DB34CC50040BB67 /* Sources */,
+				95F574671DB34CC50040BB67 /* Frameworks */,
+				95F574681DB34CC50040BB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "代理和通知";
+			productName = "代理和通知";
+			productReference = 95F5746A1DB34CC50040BB67 /* 代理和通知.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -325,6 +432,12 @@
 					95E5AF6B1DB0851E0098CD61 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					95F5745E1DB313EE0040BB67 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					95F574691DB34CC50040BB67 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 95E5AF591DB0850E0098CD61 /* Build configuration list for PBXProject "OC练习" */;
@@ -345,6 +458,8 @@
 				951E55731DB0CE1C00BD0A58 /* NSArray练习 */,
 				952B6A4B1DB1CA4F00BB495C /* NSDictionary练习 */,
 				953F3DE01DB226B200322D0C /* Block的简单使用 */,
+				95F5745E1DB313EE0040BB67 /* Foundation框架其他常用对象 */,
+				95F574691DB34CC50040BB67 /* 代理和通知 */,
 			);
 		};
 /* End PBXProject section */
@@ -357,6 +472,16 @@
 				953F3DF31DB226B200322D0C /* LaunchScreen.storyboard in Resources */,
 				953F3DF01DB226B200322D0C /* Assets.xcassets in Resources */,
 				953F3DEE1DB226B200322D0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F574681DB34CC50040BB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F5747C1DB34CC50040BB67 /* LaunchScreen.storyboard in Resources */,
+				95F574791DB34CC50040BB67 /* Assets.xcassets in Resources */,
+				95F574771DB34CC50040BB67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +531,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95F5745B1DB313EE0040BB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F574621DB313EE0040BB67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F574661DB34CC50040BB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F574831DB34CFB0040BB67 /* SecViewController.m in Sources */,
+				95F574741DB34CC50040BB67 /* ViewController.m in Sources */,
+				95F574711DB34CC50040BB67 /* AppDelegate.m in Sources */,
+				95F5746E1DB34CC50040BB67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -421,6 +565,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				953F3DF21DB226B200322D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95F574751DB34CC50040BB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F574761DB34CC50040BB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F5747A1DB34CC50040BB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F5747B1DB34CC50040BB67 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -596,6 +756,51 @@
 			};
 			name = Release;
 		};
+		95F574641DB313EE0040BB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95F574651DB313EE0040BB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95F5747E1DB34CC50040BB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "代理和通知/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CosyVan.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F5747F1DB34CC50040BB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "代理和通知/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CosyVan.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,6 +829,7 @@
 				953F3DF71DB226B200322D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95E5AF591DB0850E0098CD61 /* Build configuration list for PBXProject "OC练习" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +857,23 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		95F574631DB313EE0040BB67 /* Build configuration list for PBXNativeTarget "Foundation框架其他常用对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F574641DB313EE0040BB67 /* Debug */,
+				95F574651DB313EE0040BB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F574801DB34CC50040BB67 /* Build configuration list for PBXNativeTarget "代理和通知" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F5747E1DB34CC50040BB67 /* Debug */,
+				95F5747F1DB34CC50040BB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
