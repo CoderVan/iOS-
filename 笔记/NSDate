@@ -1,0 +1,87 @@
+'''
+ // 获取当前日期
+    NSDate *date = [NSDate date];
+    
+    // 打印结果： 当前时间 date = 2013-08-16 09:00:04 +0000
+    NSLog(@"当前时间 date = %@",date);
+    
+    // 获取从某个日期开始往前或者往后多久的日期，此处60代表60秒，如果需要获取之前的，将60改为-60即可
+    date = [[NSDate alloc] initWithTimeInterval:60 sinceDate:[NSDate date]];
+    
+    //打印结果：当前时间 往后60s的时间date = 2013-08-16 09:01:04 +0000
+    NSLog(@"当前时间 往后60s的时间date = %@",date);
+    
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    
+    NSInteger interval = [zone secondsFromGMTForDate: date];
+    
+    NSDate *localDate = [date  dateByAddingTimeInterval: interval];
+    
+    // 打印结果 正确当前时间 localDate = 2013-08-16 17:01:04 +0000
+    NSLog(@"正确当前时间 localDate = %@",localDate);
+    
+    
+    /*---- NSDate与NSString----*/
+    NSDateFormatter *dateFormatter =[[NSDateFormatter alloc] init];
+    
+    // 设置日期格式
+    [dateFormatter setDateFormat:@"年月日 YYYY/mm/dd 时间 hh:mm:ss"];
+    
+    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    
+    // 打印结果：dateString = 年月日 2013/10/16 时间 05:15:43
+    NSLog(@"dateString = %@",dateString);
+    
+    
+    // 设置日期格式
+    [dateFormatter setDateFormat:@"YYYY-MM-dd"];
+    
+    NSString *year = [dateFormatter stringFromDate:[NSDate date]];
+    
+    // 打印结果：年月日 year = 2013-08-16
+    NSLog(@"年月日 year = %@",year);
+    
+    // 设置时间格式
+    [dateFormatter setDateFormat:@"hh:mm:ss"];
+    
+    NSString *time = [dateFormatter stringFromDate:[NSDate date]];
+    
+    // 打印结果：时间 time = 05:15:43
+    NSLog(@"时间 time = %@",time);
+    
+    /*----日期时间的比较----*/
+    // 当前时间
+    NSDate *currentDate = [NSDate date];
+    
+    // 比当前时间晚一个小时的时间
+    NSDate *laterDate = [[NSDate alloc] initWithTimeInterval:60*60 sinceDate:[NSDate date]];
+    
+    // 比当前时间早一个小时的时间
+    NSDate *earlierDate = [[NSDate alloc] initWithTimeInterval:-60*60 sinceDate:[NSDate date]];
+    
+    // 比较哪个时间迟
+    if ([currentDate laterDate:laterDate]) {
+        // 打印结果：current-2013-08-16 09:25:54 +0000比later-2013-08-16 10:25:54 +0000晚
+        NSLog(@"current-%@比later-%@晚",currentDate,laterDate);
+    }
+    
+    // 比较哪个时间早
+    if ([currentDate earlierDate:earlierDate]) {
+        // 打印结果：current-2013-08-16 09:25:54 +0000 比 earlier-2013-08-16 08:25:54 +0000
+        NSLog(@"current-%@ 比 earlier-%@ 早",currentDate,earlierDate);
+    }
+    
+    if ([currentDate compare:earlierDate]==NSOrderedDescending) {
+        // 打印结果
+        NSLog(@"current 晚");
+    }
+    if ([currentDate compare:currentDate]==NSOrderedSame) {
+        // 打印结果
+        NSLog(@"时间相等");
+    }
+    if ([currentDate compare:laterDate]==NSOrderedAscending) {
+        // 打印结果
+        NSLog(@"current 早");
+    }
+
+'''

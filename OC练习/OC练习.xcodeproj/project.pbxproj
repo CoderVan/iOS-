@@ -16,6 +16,7 @@
 		953F3DF01DB226B200322D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953F3DEF1DB226B200322D0C /* Assets.xcassets */; };
 		953F3DF31DB226B200322D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953F3DF11DB226B200322D0C /* LaunchScreen.storyboard */; };
 		953F3DFA1DB229FD00322D0C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953F3DF91DB229FD00322D0C /* SecondViewController.m */; };
+		959419671DD487ED00828817 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 959419661DD487ED00828817 /* Person.m */; };
 		95E5AF621DB0850E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF611DB0850E0098CD61 /* main.m */; };
 		95E5AF6F1DB0851E0098CD61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5AF6E1DB0851E0098CD61 /* main.m */; };
 		95F574621DB313EE0040BB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F574611DB313EE0040BB67 /* main.m */; };
@@ -93,6 +94,8 @@
 		953F3DF41DB226B200322D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		953F3DF81DB229FD00322D0C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		953F3DF91DB229FD00322D0C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		959419651DD487ED00828817 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		959419661DD487ED00828817 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		95E5AF5E1DB0850E0098CD61 /* OC练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E5AF611DB0850E0098CD61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95E5AF6C1DB0851E0098CD61 /* NSString练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSString练习"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,6 +243,8 @@
 			isa = PBXGroup;
 			children = (
 				95E5AF611DB0850E0098CD61 /* main.m */,
+				959419651DD487ED00828817 /* Person.h */,
+				959419661DD487ED00828817 /* Person.m */,
 			);
 			path = "OC练习";
 			sourceTree = "<group>";
@@ -519,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959419671DD487ED00828817 /* Person.m in Sources */,
 				95E5AF621DB0850E0098CD61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -874,6 +880,7 @@
 				95F5747F1DB34CC50040BB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
